@@ -18,10 +18,8 @@ yay -S teamspeak3
 sudo ln -s /opt/teamspeak3/libssl.so.1.0.0 /lib/libssl.so.1.0.0  #自己添加一个软连接，貌似不行，找别的办法，这个仅仅记录思路
 sudo ln -s /opt/teamspeak3/libcrypto.so.1.0.0 /lib/libssl.so.1.0.0
 
-# other issues
-Please refer to the website [[https://oss.deltares.nl/web/delft3d/get-started]]
-
 ```
+
 # get examples from source code & run examples
 ```bash
 sudo pacman -S subversion
@@ -35,3 +33,5 @@ cd ~/delft3d/examples/01_standard
 ./run_flow2d3d.sh
 ```
 ![image](https://user-images.githubusercontent.com/55399089/221386603-5bc97a75-322a-41c8-9474-2a559b4e8d84.png)
+# other issues
+please refer to the website https://oss.deltares.nl/web/delft3d/get-started, maybe you need to install some packages
