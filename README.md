@@ -15,7 +15,7 @@ sudo pacman -Qo libssl.so.1.0.0 # Check if the installed packages include this f
 sudo pacman -F libssl.so.1.0.0 # Find which package include this file, The result shows that teamspeak3 contains, Sync
 
 yay -S teamspeak3
-sudo ln -s /opt/teamspeak3/libssl.so.1.0.0 /lib/libssl.so.1.0.0  #自己添加一个软连接，貌似不行，找别的办法，这个仅仅记录思路
+sudo ln -s /opt/teamspeak3/libssl.so.1.0.0 /lib/libssl.so.1.0.0 
 sudo ln -s /opt/teamspeak3/libcrypto.so.1.0.0 /lib/libssl.so.1.0.0
 
 ```
