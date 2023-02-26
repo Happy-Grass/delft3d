@@ -1,7 +1,7 @@
 # delft3d
 Compiled delft3d_7545
 
-# use in archlinux
+## use in archlinux
 ```bash
 # install mpich
 yay -S mpich
@@ -20,7 +20,7 @@ sudo ln -s /opt/teamspeak3/libcrypto.so.1.0.0 /lib/libssl.so.1.0.0
 
 ```
 
-# get examples from source code & run examples
+## get examples from source code & run examples
 ```bash
 sudo pacman -S subversion
 svn checkout https://svn.oss.deltares.nl/repos/delft3d/tags/delft3d4/7545/ 'your path'
@@ -33,5 +33,5 @@ cd ~/delft3d/examples/01_standard
 ./run_flow2d3d.sh
 ```
 ![image](https://user-images.githubusercontent.com/55399089/221386603-5bc97a75-322a-41c8-9474-2a559b4e8d84.png)
-# other issues
+## other issues
 please refer to the website https://oss.deltares.nl/web/delft3d/get-started, maybe you need to install some packages
